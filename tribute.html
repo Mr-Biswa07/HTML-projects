@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1000px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .celebrity {
+            width: 200px;
+            text-align: center;
+            border: 2px solid #ccc;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #eee;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .celebrity img {
+            width: 100%;
+            height: auto;
+            
+        }
+        .celebrity:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="celebrity" onclick="window.location.href='tribute1.html'">
+            <img src="Ms Dhoni.jpg" alt="dhoni">
+            <h3>Mahendra singh Dhoni</h3>
+        </div>
+        <div class="celebrity" onclick="window.location.href='tribute2.html'">
+            <img src="Ratan Tata.jpg" alt="tata">
+            <h3>Ratan tata</h3>
+        </div>
+        <div class="celebrity" onclick="window.location.href='tribute3.html'">
+            <img src="CR7.jpg" alt="Ronaldo">
+            <h3>Cristiano Ronaldo</h3>
+        </div>
+        <!-- Add more celebrity boxes here -->
+    </div>
+</body>
+</html>

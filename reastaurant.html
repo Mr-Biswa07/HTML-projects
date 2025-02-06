@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Hotel</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('restaurant.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Menu */
+.menu-item {
+    background-color: white;
+    padding: 25px;
+    margin: 10px auto;
+    height: 100%;
+    width: 400%;
+    max-width: 400px;
+    border: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Sunshine Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Sunshine Hotel</h2>
+        <p>Enjoy the best meals in town.</p>
+        <img height="400" width="850" src="Hotel.jpg" >
+        <br><br>
+        <a href="#menu" class="btn">View Menu</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We serve delicious and freshly prepared meals using high-quality ingredients.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <marquee behaviour="stop" >
+        <img height="400" width="450" src="chicken.jpg" >
+        </marquee>
+            <h3>Grilled Chicken</h3>
+            <p>$12.99</p>
+        </div>
+        <div class="menu-item">
+            <marquee behaviour="stop" >
+                <img height="400" width="450" src="pizza.jpg" >
+                </marquee>
+            <h3>Margherita pizza</h3>
+            <p>$10.99</p>
+        </div>
+        <div class="menu-item">
+            <marquee behaviour="stop" >
+                <img height="400" width="450" src="pasta.jpg" >
+                </marquee>
+            <h3>Pasta Alfredo</h3>
+            <p>$9.99</p>
+        </div>
+        <div class="menu-item">
+            <marquee behaviour="stop" >
+                <img height="400" width="450" src="mocktail.jpg" >
+                </marquee>
+            <h3>Mocktails</h3>
+            <p>$3.99</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@sunshine.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Food Street, City, Country</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sunshine Hotel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
